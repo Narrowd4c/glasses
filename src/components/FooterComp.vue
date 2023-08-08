@@ -14,9 +14,9 @@
                 <li><a href="#">常見問題</a></li>
         </ul>
         <ul class="d-flex ms-auto gap-2">
-            <li><a href="#"><img class="icon" src="./images/ic-social-fb.png" alt="fb"></a></li>
-            <li><a href="#"><img class="icon" src="./images/ic_social_ig.png" alt="ig"></a></li>
-            <li><a href="#"><img class="icon" src="./images/ic_social_line.png" alt="line"></a></li>
+            <li><a href="#"><img class="icon" src="/images/ic-social-fb.png" alt="fb"></a></li>
+            <li><a href="#"><img class="icon" src="/images/ic_social_ig.png" alt="ig"></a></li>
+            <li><a href="#"><img class="icon" src="/images/ic_social_line.png" alt="line"></a></li>
         </ul>
         </div>
 
