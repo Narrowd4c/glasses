@@ -2,7 +2,7 @@
 export default{
     data(){
         return{
-            items:[{img:'/images/home-section3-1.png', title:'OPTICAL'},{img:'/images/home-section3-2.png', title:'SUNGLASSES'},{img:'/images/home-section3-3.png', title:'FUNCTIONAL'}]
+            items:[{img:'./images/home-section3-1.png', title:'OPTICAL'},{img:'./images/home-section3-2.png', title:'SUNGLASSES'},{img:'./images/home-section3-3.png', title:'FUNCTIONAL'}]
         }
     }
 }
