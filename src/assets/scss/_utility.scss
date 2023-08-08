@@ -1,0 +1,23 @@
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.gap-y-4{
+    & > *:not(last-child) {
+        margin-bottom: 1rem;
+    }
+}
+
+.gap-y-6{
+    & > *:not(last-child) {
+        margin-bottom: 1.5rem;
+    }
+}
+.text-shadow:hover{
+    color: $white !important;
+    text-shadow: black 1px 1px 10px
+}
+
+.bg-pink{
+    background: #FBF2F2;
+}
