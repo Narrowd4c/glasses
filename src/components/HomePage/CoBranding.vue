@@ -2,8 +2,8 @@
     export default{
         data(){
             return{
-                items:[{title:'DOUBLE A+', imgUrl:'/images/home-section4-1.png'}, {title:'YOUTH', imgUrl:'/images/home-section4-2.png'}],
-                itemsSm:[{title:'DOUBLE A+', imgUrl:'/images/home-section4-1-sm.png'}, {title:'YOUTH', imgUrl:'/images/home-section4-2-sm.png'}],
+                items:[{title:'DOUBLE A+', imgUrl:'./images/home-section4-1.png'}, {title:'YOUTH', imgUrl:'./images/home-section4-2.png'}],
+                itemsSm:[{title:'DOUBLE A+', imgUrl:'./images/home-section4-1-sm.png'}, {title:'YOUTH', imgUrl:'./images/home-section4-2-sm.png'}],
             }
         }
     }
