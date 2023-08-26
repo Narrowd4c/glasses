@@ -6,7 +6,7 @@
     },
     data(){
       return{
-        links:[{link:'/', name:'系列鏡框'}, {link:'/', name:'門市據點'}, {link:"/", name:'部落格'}, {link:"/", name:'常見問題'}]
+        links:[{link:'/', name:'系列鏡框'}, {link:'/', name:'門市據點'}, {link:"/", name:'部落格'}, {link:"/faq", name:'常見問題'}]
       }
     }
   }
@@ -22,8 +22,8 @@
     </ul>
   </header>
   <ul class="d-flex d-md-none flex-wrap text-white">
-      <li v-for="{link, name} in links" :key="link" class="py-3 w-50 border text-center">
-        <RouterLink :to=link class="text-white">{{ name }}</RouterLink>
+      <li v-for="{link, name} in links" :key="link" class="w-50 border text-center">
+        <RouterLink :to=link class="text-white d-block py-3">{{ name }}</RouterLink>
       </li>
     </ul> 
 </div>

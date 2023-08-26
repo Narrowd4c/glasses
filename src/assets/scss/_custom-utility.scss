@@ -21,3 +21,11 @@
 .bg-pink{
     background: #FBF2F2;
 }
+
+@include media-breakpoint-up(lg) { 
+    .gap-lg-y-8{
+        & > *:not(last-child) {
+            margin-bottom: 2rem;
+        }
+    }
+}

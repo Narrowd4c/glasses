@@ -1,17 +1,22 @@
 <script>
+import { RouterLink } from 'vue-router';
+export default {
+    components: [
+        RouterLink
+    ]
+}
 </script>
 <template>
-    <footer class="bg-secondary">
+    <footer class="bg-secondary mt-auto">
         <div class="container">
         <div class="row py-6 align-items-md-center text-white gap-y-9">
-
         <div class="order-2 d-flex col col-md-12">
         <ul class="d-none d-md-flex gap-12 align-items-center">
-                <li><a href="#">首頁</a></li>
+                <li><RouterLink to="/">首頁</RouterLink></li>
                 <li><a href="#">系列鏡框</a></li>
                 <li><a href="#">門市據點</a></li>
                 <li><a href="#">部落格</a></li>
-                <li><a href="#">常見問題</a></li>
+                <li><RouterLink to="faq">常見問題</RouterLink></li>
         </ul>
         <ul class="d-flex ms-auto gap-2">
             <li><a href="#"><img class="icon" src="/images/ic-social-fb.png" alt="fb"></a></li>
@@ -59,7 +64,9 @@ a{
   'GRAD' 0,
   'opsz' 48
 }
-
+.justify-self-end{
+    justify-self:end;
+}
 @include media-breakpoint-up(md) { 
     .connection{
         font-size: 2.5rem;

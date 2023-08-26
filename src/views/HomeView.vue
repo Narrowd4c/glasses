@@ -15,10 +15,6 @@
       Reviews,
       UserForm
     },
-    data(){
-      return{
-      }
-    }
   }
 </script>
 

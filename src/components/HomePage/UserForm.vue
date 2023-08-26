@@ -11,10 +11,10 @@
             <input type="text" id="user-name" name="user-name" placeholder="陳小明">
 
             <label for="user-phone" >聯絡電話</label>
-            <input type="text" id="user-phone" name="user-phone" placeholder="0912-345-678">
+            <input type="tel" id="user-phone" name="user-phone" placeholder="0912-345-678">
         
             <label for="user-email" >電子郵件</label>
-            <input type="text" id="user-email" name="user-email" placeholder="example@email.com">
+            <input type="email" id="user-email" name="user-email" placeholder="example@email.com">
         
             <label for="comment" >意見反應</label>
             <textarea name="comment" id="comment" rows="5" placeholder="請輸入您的意見"></textarea>

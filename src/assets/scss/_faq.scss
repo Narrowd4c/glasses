@@ -1,0 +1,9 @@
+.title-border {
+  border-left: 8px solid #9f1213;
+}
+
+@include media-breakpoint-up(md) { 
+    .display-md-3{
+        font-size: 3rem !important;
+    }
+}
